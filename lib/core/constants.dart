@@ -2,7 +2,7 @@
 class AppConstants {
   // Para emulador Android, usar 10.0.2.2 en lugar de localhost
   // Para dispositivo físico, usar la IP de la PC en la red local (ej: 192.168.1.x)
-  static const String baseUrl = 'http://10.0.2.2:8000';
+  static const String baseUrl = 'https://backend-sesion10.onrender.com';
 
   // Endpoints
   static const String loginEndpoint     = '$baseUrl/api/login';
